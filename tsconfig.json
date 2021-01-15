@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "jsx": "react",
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "noImplicitUseStrict": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "outDir": "./build/",
+    "preserveConstEnums": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@constants/*": [
+        "./src/constants/*"
+      ],
+      "@icons/*": [
+        "./src/icons/*"
+      ],
+      "@images/*": [
+        "./src/images/*"
+      ],
+      "@modules/*": [
+        "./src/modules/*"
+      ],
+      "@routes/*": [
+        "./src/routes/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
+      ],
+      "@theme/*": [
+        "./src/theme/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
